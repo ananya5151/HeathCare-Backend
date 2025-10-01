@@ -147,8 +147,43 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5MzQ2MzQ1LCJpYXQiOjE3NTkzNDYwNDUsImp0aSI6IjlkZjU3YjFmYjE1YTRiNTc5NWEzN2ZkNmVkYjU2M2RiIiwidXNlcl9pZCI6IjEifQ.gvLesdrvTr9kvut4kyOjtaeEzcP2nnDAlACFiG8DSHQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"jaymall taimus\",\r\n    \"specialization\": \"dermat\",\r\n    \"contact_info\": \"jaimal@wnder.land\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/doctors/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"doctors",
+						""
+					]
+				}
 			},
 			"response": []
 		},
