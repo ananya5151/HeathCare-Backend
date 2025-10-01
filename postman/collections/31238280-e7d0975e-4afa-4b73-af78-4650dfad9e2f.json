@@ -235,18 +235,6 @@
 			"response": []
 		},
 		{
-			"name": "Test C1: Create one more patient",
-			"id": "31238280-b90e627a-10c6-47ae-91a1-3c321bb84155",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": []
-			},
-			"response": []
-		},
-		{
 			"name": "Test D: List Your Patients",
 			"id": "31238280-181e5895-ea00-406b-b6ad-7f84c90ac5da",
 			"protocolProfileBehavior": {
