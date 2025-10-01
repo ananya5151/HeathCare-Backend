@@ -194,8 +194,43 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5MzQwMjYxLCJpYXQiOjE3NTkzMzk5NjEsImp0aSI6ImZmZDU2MjgxN2JlMjQyYjJiZGVjNDU5MGVjYzhiMmNlIiwidXNlcl9pZCI6IjEifQ.PpmsOIqHQdMNzabcSmXlDEg9Gyv7ZtA91HEyr30mpJk",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"John Doe\",\r\n    \"age\": 35,\r\n    \"gender\": \"M\",\r\n    \"address\": \"123 Main St\",\r\n    \"phone_number\": \"555-0101\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/patients/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"patients",
+						""
+					]
+				}
 			},
 			"response": []
 		},
