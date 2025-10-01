@@ -1,0 +1,213 @@
+{
+	"info": {
+		"_postman_id": "31238280-e7d0975e-4afa-4b73-af78-4650dfad9e2f",
+		"name": "endpoint testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Test A: Register a New User",
+			"id": "31238280-7b764ba5-e006-4eb9-ac8f-6f60db17faa3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Test B: Log In with the New User",
+			"id": "31238280-39435cfb-ef31-4142-af26-60371bfc93d3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Test A: Try to Get Doctors (Unauthorized)",
+			"id": "31238280-ba2fdd67-4838-49e4-bb0a-6879f6c72d0e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Test B: Create a New Doctor (Authorized)",
+			"id": "31238280-771f229c-cc55-4283-bead-d76a0623a609",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Test B1: Create one more doctor",
+			"id": "31238280-fda69f13-98b5-4fba-8b8a-bcf33eb4e68b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Test C: Create a New Patient (Authorized)",
+			"id": "31238280-afde6fa5-6186-4e68-8f7e-02a80b704812",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Test C1: Create one more patient",
+			"id": "31238280-b90e627a-10c6-47ae-91a1-3c321bb84155",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Test D: List Your Patients",
+			"id": "31238280-181e5895-ea00-406b-b6ad-7f84c90ac5da",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Test E: Update a Patient",
+			"id": "31238280-17b0463f-5d34-48fc-8ab2-6ea623f3cfe9",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Test F: Retrieve a Single Doctor",
+			"id": "31238280-ac52bb2b-3edc-4260-895a-61d7263790dd",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Test G: Update a Doctor",
+			"id": "31238280-c8d485ec-dd6e-4681-8fbb-8bc9ac0cbc82",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Test H: Create a Patient-Doctor Mapping",
+			"id": "31238280-b0bbca24-3180-4a7c-bba7-1335bb069adb",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Test I: List All Mappings",
+			"id": "31238280-e27e896f-273a-4afc-a3f9-0f173e18031a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Test J: Delete a Mapping",
+			"id": "31238280-877d79d3-4547-40e2-b05a-fb086b0fcf6b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Test K: Delete a Patient",
+			"id": "31238280-24b0b37a-f229-42ce-88b8-d2575d219653",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Test L: Delete a Doctor",
+			"id": "31238280-fdf517ca-193d-4586-b9e5-250ac55dcc38",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Test M: Get All Doctors for a Specific Patient",
+			"id": "31238280-e4d450fc-05cd-45a9-b8de-0553ffa290d3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
